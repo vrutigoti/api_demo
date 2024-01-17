@@ -23,8 +23,7 @@ final l;
   @override
   State<first> createState() => _firstState();
 }
-//vruti
-//mitali
+//good morning
 class _firstState extends State<first> {
   TextEditingController t1=TextEditingController();
   TextEditingController t2=TextEditingController();
@@ -42,7 +41,7 @@ class _firstState extends State<first> {
     {
       t1.text=widget.l!['name'];
       t2.text=widget.l!['contact'];
-      t3.text=widget.l!['city123'];
+      t3.text=widget.l!['city'];
       setState(() {
 
       });
