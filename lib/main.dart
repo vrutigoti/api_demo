@@ -42,7 +42,7 @@ class _firstState extends State<first> {
     {
       t1.text=widget.l!['name'];
       t2.text=widget.l!['contact'];
-      t3.text=widget.l!['city'];
+      t3.text=widget.l!['city123'];
       setState(() {
 
       });
