@@ -23,7 +23,7 @@ final l;
   @override
   State<first> createState() => _firstState();
 }
-//hello word
+//hello world
 class _firstState extends State<first> {
   TextEditingController t1=TextEditingController();
   TextEditingController t2=TextEditingController();
@@ -49,7 +49,6 @@ class _firstState extends State<first> {
   }
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
       appBar: AppBar(),
       body: Column(
